@@ -67,14 +67,28 @@
   flex-wrap: wrap; }
 
 .aside {
-  flex: 30px;
   background-color: #0b693a;
-  padding: 20px; }
+  padding: 20px;
+  margin-top: 5px;
+  flex: auto; }
 
 span {
-  flex: 70%;
   background-color: beige;
-  padding: 20px; }
+  padding: 20px;
+  margin-top: 5px;
+  flex: auto; }
+
+.productos {
+  background-color: black;
+  padding: 20px;
+  margin-top: 5px;
+  flex: auto; }
+
+.textocolor {
+  color: white; }
+
+.tb {
+  color: white; }
 
 @media screen and (max-width: 850px) {
   .esteticafacialcaracteristicas {

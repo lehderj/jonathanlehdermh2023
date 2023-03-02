@@ -4,16 +4,26 @@
     }
     
     .aside{
-    flex:30px;
-    background-color:rgb(11, 105, 58);
-    padding: 20px;
+    @include cuadro ($colordeincidencia) 
     }
     
     span{
-    flex:70%;
-    background-color: beige;
-    padding: 20px;
+    @include cuadro (beige)
     }
+
+    .productos {
+    @include cuadro (black)
+
+    }
+
+    .textocolor {
+        color: white;
+    }
+
+    .tb {
+        color: white;
+    }
+
     
     @media screen and (max-width:850px){
         .esteticafacialcaracteristicas {
