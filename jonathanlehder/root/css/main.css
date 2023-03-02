@@ -1,4 +1,52 @@
-div {
-  background-color: beige; }
-  div h1 {
-    color: lightgreen; }
+.grupo-1 {
+  background-color: #0d2033;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px, 0px; }
+  .grupo-1 .BOX figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .grupo-1 .BOX figure img {
+      width: 250px; }
+  .grupo-1 .BOX h2 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 25px; }
+  .grupo-1 .BOX p {
+    color: #efefef;
+    margin-bottom: 10px; }
+  .grupo-1 .BOX .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease; }
+    .grupo-1 .BOX .red-social a:hover {
+      color: #0b693a; }
+
+.grupo-2 {
+  background-color: #0a1a2a;
+  padding: 10px 25px;
+  text-align: center;
+  color: white; }
+  .grupo-2 small {
+    font-size: 15px; }
+
+@media screen and (max-width: 800px) {
+  .grupo-1 {
+    width: 85%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px, 0px; } }
